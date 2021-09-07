@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+
+.title{
+    font-weight: 800;
+}
+
+.hero-section{
+    color: #fff;
+}
+
+.hero-title{
+    font-size: 20px;
+}
+
+.navbar-section{
+    display: flex;
+    justify-content: space-between;
+    top: 4rem;
+    position: absolute;
+    width: 100vw;
+}
+
+.navbar-section .navbar-brand{
+    padding-left: 8rem;
+    color: #fff;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.menu-nav-link{
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.order-online{
+    padding-right: 40px;
+}
+
+/* .navbar-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+} */
+
+/* sidebar section */
+
+.sidebar-section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background: #c1ebd8;
+    height: 100%;
+}
+
+.sidebar-brand {
+    padding: 4rem 0;
+}
+
+.menu-nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-nav-item{
+    transform: rotate(-90deg);
+    padding: 40px 0px;
+}
+/* hero-section css */
+
+.hero-section{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../statics/media/meal.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    flex-flow: column;
+}
+
+.hero-content > * {
+    padding: 1rem 0;
+}
+/* discover section */
+
+.discover-section{
+    padding: 3rem 0;
+    overflow-x: hidden !important;
+}
+.discover-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mealtypes{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+
+.mealtypes li{
+    padding-right: 10px;
+}
+
+.mealcount{
+    position: absolute;
+    margin-top: -17px;
+    margin-left: -15px;
+    background: #fff;
+    padding: 0 2px 0 2px;
+    border-radius: 50%;
+}
